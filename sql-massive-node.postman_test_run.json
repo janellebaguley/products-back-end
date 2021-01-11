@@ -1,0 +1,323 @@
+{
+	"id": "fadd6b87-f827-45be-9f10-546c49be5dbf",
+	"name": "sql-massive-node",
+	"timestamp": "2021-01-11T23:05:26.191Z",
+	"collection_id": "f8534cc1-23a4-4645-a127-664b99447afc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "dff89181-aad4-47a4-b98f-6c8cfdb3c336",
+			"name": "Add product0 to database",
+			"url": "http://localhost:3000/api/products",
+			"time": 523,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				523
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0e065ff0-94c1-43ad-9f1e-33acdce706ef",
+			"name": "Add product1 to database",
+			"url": "http://localhost:3000/api/products",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				77
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "644e256d-bb05-48a6-8a12-9b5f5a97c9c4",
+			"name": "Add product2 to database",
+			"url": "http://localhost:3000/api/products",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8fd6f0bc-0dac-468e-8ad7-c6fa0bc5bc53",
+			"name": "Get all products",
+			"url": "http://localhost:3000/api/products",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can create and read products": true
+			},
+			"testPassFailCounts": {
+				"API can create and read products": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				81
+			],
+			"allTests": [
+				{
+					"API can create and read products": true
+				}
+			]
+		},
+		{
+			"id": "f75d00fd-e8bc-4eb7-82ff-aa6ed9b5aecf",
+			"name": "Get specific product",
+			"url": "http://localhost:3000/api/products/4",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can read a specific product": true
+			},
+			"testPassFailCounts": {
+				"API can read a specific product": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"API can read a specific product": true
+				}
+			]
+		},
+		{
+			"id": "3cc65748-7e5f-4361-a439-b741684716d0",
+			"name": "Update a single product",
+			"url": "http://localhost:3000/api/products/4?desc=updated",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				75
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d32ffa24-9958-4b9d-97d1-d133d984333a",
+			"name": "Check for update success",
+			"url": "http://localhost:3000/api/products/4",
+			"time": 79,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can update the description": true
+			},
+			"testPassFailCounts": {
+				"API can update the description": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				79
+			],
+			"allTests": [
+				{
+					"API can update the description": true
+				}
+			]
+		},
+		{
+			"id": "f8136aca-b6cb-47f2-9725-89058912efb9",
+			"name": "Delete product0 from database",
+			"url": "http://localhost:3000/api/products/4",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				74
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fb0f4034-f303-4c19-8b46-26ee58965ee3",
+			"name": "Delete product1 from database",
+			"url": "http://localhost:3000/api/products/5",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				80
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a73334a5-eb50-4361-ac2c-e05ad0744ba3",
+			"name": "Delete product2 from database",
+			"url": "http://localhost:3000/api/products/6",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				77
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "834e3802-4013-419c-a6db-faeb59d75389",
+			"name": "Check for delete success",
+			"url": "http://localhost:3000/api/products",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"API can successfully remove products ": true
+			},
+			"testPassFailCounts": {
+				"API can successfully remove products ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				76
+			],
+			"allTests": [
+				{
+					"API can successfully remove products ": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1289,
+	"collection": {
+		"requests": [
+			{
+				"id": "dff89181-aad4-47a4-b98f-6c8cfdb3c336",
+				"method": "POST"
+			},
+			{
+				"id": "0e065ff0-94c1-43ad-9f1e-33acdce706ef",
+				"method": "POST"
+			},
+			{
+				"id": "644e256d-bb05-48a6-8a12-9b5f5a97c9c4",
+				"method": "POST"
+			},
+			{
+				"id": "8fd6f0bc-0dac-468e-8ad7-c6fa0bc5bc53",
+				"method": "GET"
+			},
+			{
+				"id": "f75d00fd-e8bc-4eb7-82ff-aa6ed9b5aecf",
+				"method": "GET"
+			},
+			{
+				"id": "3cc65748-7e5f-4361-a439-b741684716d0",
+				"method": "PUT"
+			},
+			{
+				"id": "d32ffa24-9958-4b9d-97d1-d133d984333a",
+				"method": "GET"
+			},
+			{
+				"id": "f8136aca-b6cb-47f2-9725-89058912efb9",
+				"method": "DELETE"
+			},
+			{
+				"id": "fb0f4034-f303-4c19-8b46-26ee58965ee3",
+				"method": "DELETE"
+			},
+			{
+				"id": "a73334a5-eb50-4361-ac2c-e05ad0744ba3",
+				"method": "DELETE"
+			},
+			{
+				"id": "834e3802-4013-419c-a6db-faeb59d75389",
+				"method": "GET"
+			}
+		]
+	}
+}
